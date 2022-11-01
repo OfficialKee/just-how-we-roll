@@ -1,3 +1,30 @@
+
+
+body{
+    background-color: black;
+    color: red;
+    font-family: fantasy;
+    
+    
+}
+#d6-averages,#d12-averages{
+    box-shadow: 0px 8px 15px rgba(253, 253, 253, 0.634);
+
+}
+
+.flash{
+    text-align: center;
+    text-decoration:underline;
+    animation: blinker 5s linear infinite;
+    
+    
+}
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
 #reset-button:focus{
     outline: none;
 }
@@ -10,6 +37,7 @@
 #d6, #d12, #d20, #double-d6 {
     display: flex;
     justify-content: space-around;
+    
 }
 
 .roll {
@@ -29,7 +57,7 @@
     border: 4px solid #E80000;
     background-color: red;
     font-weight: bold;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 8px 15px rgb(246, 243, 243);
     color: #F1EDEE;
     margin: 15px;
     font-size: 30px;
